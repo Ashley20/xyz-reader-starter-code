@@ -3,6 +3,8 @@
     <dimen name="list_side_margin">4dp</dimen>
     <dimen name="list_toolbar_side_margin">0dp</dimen>
     <integer name="list_column_count">2</integer>
+    <dimen name="appbar_layout_height">355dp</dimen>
+    <dimen name="mainactivity_appbar_layout_height">300dp</dimen>
 
     <!-- detail -->
     <bool name="detail_is_card">false</bool>
@@ -14,4 +16,15 @@
     <dimen name="detail_metabar_title_bottom_padding">4dp</dimen>
     <dimen name="detail_body_top_margin">16dp</dimen>
     <dimen name="detail_body_bottom_margin">88dp</dimen>
+
+
+    <!-- cardview -->
+    <dimen name="thumbnail_width">150dp</dimen>
+    <dimen name="thumbnail_height">150dp</dimen>
+    <dimen name="cardview_article_subtitle_textsize">15sp</dimen>
+    <dimen name="cardview_default_height">300dp</dimen>
+
+
+
+
 </resources>
