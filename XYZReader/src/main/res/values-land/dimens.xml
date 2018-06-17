@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="appbar_landscape_layout_height">2dp</dimen>
+    <dimen name="detail_title_landscape_text_size">15sp</dimen>
+    <dimen name="detail_inner_horiz_margin_land">25dp</dimen>
+    <dimen name="detail_body_text_size">18sp</dimen>
+</resources>
