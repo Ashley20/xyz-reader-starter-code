@@ -1,9 +1,18 @@
 <resources>
+
+    <!-- list -->
+    <dimen name="appbar_layout_height">420dp</dimen>
     <!-- detail -->
     <dimen name="detail_photo_height">384dp</dimen>
-    <dimen name="detail_card_top_margin">384dp</dimen>
+    <dimen name="detail_card_top_margin">150dp</dimen>
     <dimen name="detail_inner_horiz_margin">64dp</dimen>
     <dimen name="detail_metabar_vert_padding">32dp</dimen>
     <dimen name="detail_metabar_title_bottom_padding">8dp</dimen>
     <dimen name="detail_body_bottom_margin">96dp</dimen>
+
+    <!-- cardview -->
+    <dimen name="thumbnail_width">250dp</dimen>
+    <dimen name="thumbnail_height">250dp</dimen>
+    <dimen name="cardview_article_subtitle_textsize">20sp</dimen>
+    <dimen name="cardview_default_height">300dp</dimen>
 </resources>
