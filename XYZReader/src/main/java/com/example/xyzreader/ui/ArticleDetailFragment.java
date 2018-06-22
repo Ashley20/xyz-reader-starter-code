@@ -17,6 +17,7 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.provider.CalendarContract;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.v4.app.ShareCompat;
@@ -117,6 +118,13 @@ public class ArticleDetailFragment extends Fragment implements
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
         mRootView = inflater.inflate(R.layout.fragment_article_detail, container, false);
+
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                mRootView.requestLayout();
+            }
+        },100);
 
 
         mPhotoView = (ImageView) mRootView.findViewById(R.id.photo);
